@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/food-seamless-pattern-black-white_350552-142.jpg');
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.content {
+    padding: 3rem 8rem;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #ffffff;
+    position: center;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border:dashed 5px rgb(0, 0, 0, 2);
+    
+}
+
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18, 6, 71);
+    font-family: 'Special Elite', cursive;
+}
+
+ul {
+    font-size: 25px;
+    width: 400px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border: 3px solid #333333;
+}

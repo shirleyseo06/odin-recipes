@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="/pages/css/contact.css">
+  <title>Odin Recipes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="sec-bg">
+    <header>
+        <a href="#"><img src="/img/logo.png" class="logo"></a>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="/pages/about.html">About Us</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="contain">
+
+        <div class="wrapper">
+      
+          <div class="form">
+            <h4>GET IN TOUCH</h4>
+            <h2 class="form-headline">Send us a message</h2>
+            <form id="submit-form" action="">
+              <p>
+                <input id="name" class="form-input" type="text" placeholder="Your Name*">
+                <small class="name-error"></small>
+              </p>
+              <p>
+                <input id="email" class="form-input" type="email" placeholder="Your Email*">
+                <small class="name-error"></small>
+              </p>
+              <p class="full-width">
+                <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+                <small></small>
+              </p>
+              <p class="full-width">
+                <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+                <small></small>
+              </p>
+              <p class="full-width">
+                <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+              </p>
+              <p class="full-width">
+                <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+                <button class="reset-btn" onclick="reset()">Reset</button>
+              </p>
+            </form>
+          </div>
+      
+          <div class="contacts contact-wrapper">
+      
+            <ul>
+              <li>We've driven online revenues of over <span class="highlight-text-grey">$2
+                  billion</span> for our clients. Ready to know
+                how we can help you?</li>
+              <span class="hightlight-contact-info">
+                <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> info@demo.com</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 11 1111 2900</span></li>
+              </span>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <ul class="sci">
+        <li><a href="#"><img src="/img/facebook.png" alt=""></a></li>
+        <li><a href="#"><img src="/img/instagram.png" alt=""></a></li>
+        <li><a href="#"><img src="/img/twitter.png" alt=""></a></li>
+    </ul>
+  </section>
+ 
+  
+
+  <footer>
+    <p>Copyrighted @ Odin Recipe</p>
+  </footer>
+</body>

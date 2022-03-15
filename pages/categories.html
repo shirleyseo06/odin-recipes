@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/pages/css/categories.css">
   <title>Odin Recipes</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,37 +24,10 @@
             <li><a href="/pages/contact.html">Contact</a></li>
         </ul>
     </header>
-    <div class="content">
-        <div class="textBox">
-            <h2>Odin Recipes<br><span>Most favorite</span></h2>
-            <p>Here are the top 3 recipes that most people visited this week.</p>
-            <a href="#">view Recipe</a>
-        </div>
-        <div class="imgBox">
-            <img src="/img/kimbab.png" class="kfood">
-        </div>
-    </div>
-    <ul class="thumb">
-        <li><img src="/img/kimbab.png" onclick="imgSlider('/img/kimbab.png')"></li>
-        <li><img src="/img/galbi.png" onclick="imgSlider('/img/galbi.png')"></li>
-        <li><img src="/img/wings.png" onclick="imgSlider('/img/wings.png')"></li>
-    </ul>
-    <ul class="sci">
-        <li><a href="#"><img src="/img/facebook.png" alt=""></a></li>
-        <li><a href="#"><img src="/img/instagram.png" alt=""></a></li>
-        <li><a href="#"><img src="/img/twitter.png" alt=""></a></li>
-    </ul>
-  </section>
-        <script type="text/javascript">
-            function imgSlider(anything) {
-                document.querySelector('.kfood').src=anything;
-            } 
-        </script>
+ 
 
-  <section class="sec-bg2">
-  
     <div class="title">
-        <h2>Recent Upload</h2>
+        <h2>Categories</h2>
       <div class="container">
 
           <div class="card">
@@ -108,6 +81,21 @@
       </div>
   </section>
 
+
+    <ul class="sci">
+        <li><a href="#"><img src="/img/facebook.png" alt=""></a></li>
+        <li><a href="#"><img src="/img/instagram.png" alt=""></a></li>
+        <li><a href="#"><img src="/img/twitter.png" alt=""></a></li>
+    </ul>
+  </section>
+        <script type="text/javascript">
+            function imgSlider(anything) {
+                document.querySelector('.kfood').src=anything;
+            } 
+        </script>
+
+  
+    
   <footer>
     <p>Copyrighted @ Odin Recipe</p>
   </footer>

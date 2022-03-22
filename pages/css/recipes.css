@@ -16,7 +16,7 @@ section{
     transition: 0.5s;
 }
  .sec-bg{
-    background-image: url('/img/background3.jpg');
+    background-image: url('/img/background4.jpg');
 }
 header{
     position: absolute;
@@ -42,7 +42,7 @@ header ul li{
 }
 header ul li a{
     display: inline-block;
-    color: rgb(0, 0, 0);
+    color: rgb(12, 12, 12);
     font-weight: 400;
     margin-left: 30px;
     text-decoration: none;
@@ -86,7 +86,8 @@ header ul li a{
     justify-content: space-between;
     margin-top: 30px;
 }
- .title h2{
+
+.title h2{
     color: rgb(0, 0, 0);
     font-size: 60px;
     text-transform: uppercase;
@@ -96,9 +97,10 @@ header ul li a{
     margin-top: 20px;
 
 }
+
 .card{
-    height: 180px;
-    width: 250px;
+    height: 170px;
+    width: 200px;
     background: white;
     margin: 0 15px;
     transition: 0.4s;
@@ -131,6 +133,7 @@ header ul li a{
     height: 130px;
     width: 100%;
 }
+
 .card .img img{
     height: 100%;
     width: 100%;
@@ -173,7 +176,7 @@ header ul li a{
 }
 
 .pagination {
-    margin-left: 845px;
+    margin-left: 680px;
     display: inline-block;
   }
   
@@ -193,13 +196,14 @@ header ul li a{
   }
   
   .pagination a.active {
-    background-color: #C3E5AE;
+    background-color: #97DBAE;
     color: rgb(0, 0, 0);
   }
   
   .pagination a:hover:not(.active) {
-      background-color: #F1E1A6;
+      background-color: #F4BBBB;
     }
+
 footer p{
     display: flex;
     justify-content: center;

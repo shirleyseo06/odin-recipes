@@ -29,7 +29,7 @@ header{
 }
 header .logo{
     position: relative;
-    max-width: 180px;
+    max-width: 250px;
     filter: brightness(120%);
 }
 header ul{
@@ -41,11 +41,11 @@ header ul li{
 }
 header ul li a{
     display: inline-block;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-weight: 400;
     margin-left: 30px;
     text-decoration: none;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 25px;
 }
 
@@ -60,7 +60,8 @@ header ul li a{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.5px);
     -webkit-backdrop-filter: blur(3.5px);
-    font-family: 'Arvo', serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 22px;
     }
   
     div.form {
@@ -96,7 +97,7 @@ header ul li a{
   
   .hightlight-contact-info {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 30px;
     line-height: 1.5;
     color: #ffbfbf;
   }
@@ -104,6 +105,7 @@ header ul li a{
   .highlight-text-grey {
     font-weight: 500;
     color: #ffffff;
+    font-size: 30px;
   }
   
   .email-info {
@@ -112,7 +114,7 @@ header ul li a{
   }
   
   ::-webkit-input-placeholder { /* Chrome */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
   }
   
   .required-input {
@@ -145,7 +147,7 @@ header ul li a{
     width: 100%;
     border: 1px solid #bdbdbd;
     border-radius: 5px;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
   }
   
   .wrapper > * {
@@ -187,6 +189,7 @@ header ul li a{
   form p {
     margin: 0;
     color: #ffffff;
+    
   }
   
   .full-width {
@@ -207,6 +210,8 @@ header ul li a{
     border-radius: 15px;
     padding: 5px 20px;
     text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
     color: #ffffff;
   }
   button:hover, .submit-btn:hover,
@@ -236,7 +241,6 @@ header ul li a{
 }
 .sci li a{
     display: inline-block;
-    filter:invert(1);
     margin: 5px 0;
     transform: scale(0.6);
 }
